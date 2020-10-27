@@ -6,7 +6,14 @@
  */
 
   function run(){
-    renderizar("home",Array());
+    $viewData = array(
+      "prdName1" => "PANADOL",
+      "prdName2" => "MIGRADORIXINA",
+      "prdName3" => "KETEROLAKO TRAMANINA",
+
+    );
+
+    renderizar("home",$viewData);
   }
   run();
 ?>
