@@ -37,9 +37,6 @@ function  run(){
     $viewData["EstudiosAcademicos"] = $EstudiosAcademicos;
 
 
-    
-    
-
     renderizar("about",$viewData);
 }
 run();
